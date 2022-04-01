@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+* {
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: none;
+    scrollbar-color: #000000 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: none;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #000000;
+	border:1px solid #2e2e2e;
+  }
+
+body {
+	background-color: #2e2e2e;
+  color:white;
+}
+
+
+.center{
+	text-align: center;
+}
+
+.scrollable-x{
+	overflow-x: scroll;
+	white-space: nowrap;
+    display: inline-block;
+}
+
+.poster {
+    padding:0;
+    max-height: 450px; 
+}
+
+.custom-modal{
+  background-color: #2e2e2e;
+  color:white;
+}
+
+.custom-modal .modal-header{
+  border-bottom: 1px solid #444444;
+}
+
+.noflex{
+  display:block;
+}
